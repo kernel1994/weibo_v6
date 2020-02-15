@@ -731,6 +731,12 @@ body,
         background-color: #fff !important;
         border-color: #ccc !important;
     }
+
+    /* kernel1994: hiden favorite button */
+    .WB_feed_v3 .WB_cardwrap .WB_feed_handle .WB_row_line > li:nth-child(1) {
+        visibility: hidden !important;
+    }
+
     /* v3 main */
     .WB_feed_v3 .WB_info {
         margin-bottom: 0px !important;
